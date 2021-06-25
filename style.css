@@ -141,13 +141,11 @@ input:checked + .slider::before {
 
 h1 {
   font-size: 100px;
-  margin-bottom: 10px;
 }
 
 h2 {
   font-size: 32px;
   color: var(--on-background-alt);
-  margin-top: 10px;
 }
 
 #home {
@@ -336,6 +334,7 @@ h2 {
   }
   h1 {
     font-size: 72px;
+    margin-bottom: 20px;
   }
   h2 {
     font-size: 28px;
@@ -347,9 +346,11 @@ h2 {
   }
   nav a {
     margin-left: 3px;
+    border-bottom: 5px solid transparent;
   }
-  h1 {
+  #nav h1 {
     font-size: 56px;
+    margin-bottom: 20px;
   }
 }
 
