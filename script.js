@@ -11,6 +11,7 @@ const project5_Img = document.querySelector('#project-5');
 const project6_Img = document.querySelector('#project-6');
 const project7_Img = document.querySelector('#project-7');
 const project8_Img = document.querySelector('#project-8');
+const project9_Img = document.querySelector('#project-9');
 
 function darkMode() {
   toggleSwitch.checked = true;
@@ -26,6 +27,7 @@ function darkMode() {
   project6_Img.src = 'images/proj-images/005/main.jpeg';
   project7_Img.src = 'images/proj-images/006/main.jpeg';
   project8_Img.src = 'images/proj-images/007/main.jpeg';
+  project9_Img.src = 'images/proj-images/008/main.jpeg';
 }
 
 function lightMode() {
@@ -41,6 +43,7 @@ function lightMode() {
   project6_Img.src = 'images/proj-images/005/main-light.jpg';
   project7_Img.src = 'images/proj-images/006/main-light.jpg';
   project8_Img.src = 'images/proj-images/007/main-light.jpg';
+  project9_Img.src = 'images/proj-images/008/main-light.jpg';
 }
 
 function switchTheme(evt) {
