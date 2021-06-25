@@ -147,6 +147,7 @@ h1 {
 h2 {
   font-size: 32px;
   color: var(--on-background-alt);
+  margin-top: 10px;
 }
 
 #home {
@@ -342,8 +343,10 @@ h2 {
 }
 @media screen and (max-width: 576px) {
   #nav {
-    font-size: 24px;
-    flex-direction: column;
+    font-size: 20px;
+  }
+  nav a {
+    margin-left: 3px;
   }
   h1 {
     font-size: 56px;
