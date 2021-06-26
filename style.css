@@ -332,12 +332,13 @@ h2 {
     font-size: 26px;
     margin-right: 4px;
   }
-  h1 {
+  .home h1 {
     font-size: 72px;
     margin-bottom: 20px;
   }
-  h2 {
+  .home h2 {
     font-size: 28px;
+    margin-top: 20px;
   }
 }
 @media screen and (max-width: 576px) {
@@ -348,7 +349,7 @@ h2 {
     margin-left: 3px;
     border-bottom: 5px solid transparent;
   }
-  #nav h1 {
+  .home h1 {
     font-size: 56px;
     margin-bottom: 20px;
   }
