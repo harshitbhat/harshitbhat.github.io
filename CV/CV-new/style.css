@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+/* Link: https://harshitbhat.github.io/CV/index.html */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d3d3d3;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Page */
+.resume-container {
+  height: 297mm;
+  width: 210mm;
+  background-color: #fff;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Heading */
+.heading {
+  /* border: 1px solid black; */
+  width: 95%;
+  position: absolute;
+  top: 0%;
+  left: 2.5%;
+}
+
+.heading h1 {
+  font-size: 56px;
+}
+
+.heading a {
+  text-decoration: none;
+  color: black;
+}
+
+#links {
+  width: 97%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+}
+
+/* Body */
+
+.body-container {
+  /* border: 1px solid black; */
+  position: absolute;
+  width: 95%;
+  height: 85%;
+  left: 2.5%;
+  top: 10%;
+  display: flex;
+}
+
+#column-1 {
+  height: 100%;
+  width: 60%;
+  /* border: 1px solid blue; */
+  padding: 2px;
+}
+
+#column-2 {
+  height: 100%;
+  width: 40%;
+  /* border: 1px solid blue; */
+  padding: 2px;
+}
+
+#education h2 {
+  font-size: 1.8rem;
+  border-bottom: 3px solid black;
+  text-transform: uppercase;
+}
+
+.institute {
+  margin-top: 5px;
+}
+
+.institute-degree {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.institute-name {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.institute-timeline {
+  font-size: 0.7rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  font-weight: 100;
+  align-items: center;
+}
+
+#certifications h2 {
+  font-size: 1.8rem;
+  border-bottom: 3px solid black;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+
+.certificate {
+  margin-top: 5px;
+}
+
+.certificate-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.certificate-details {
+  display: flex;
+}
+
+.company-logo {
+  font-size: 2.5rem;
+}
+
+.company-details {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8rem;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+#skills h2 {
+  font-size: 1.8rem;
+  border-bottom: 3px solid black;
+  text-transform: uppercase;
+  margin-top: 0px;
+}
+
+.skills-container {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill {
+  font-size: 1rem;
+  padding: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  text-transform: uppercase;
+}
+
+#awards h2 {
+  font-size: 1.8rem;
+  border-bottom: 3px solid black;
+  text-transform: uppercase;
+  margin-top: 0px;
+}
+
+.award-list {
+  margin-top: 10px;
+  margin-left: 15px;
+  font-size: 0.8rem;
+}
+
+#experience h2 {
+  font-size: 1.8rem;
+  border-bottom: 3px solid black;
+  text-transform: uppercase;
+  width: 95%;
+}
+
+.experience-details {
+  margin-top: 5px;
+}
+
+.position {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.company {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.exp-timeline {
+  font-size: 0.7rem;
+  font-weight: 100;
+  margin-top: 5px;
+}
+
+.details {
+  width: 95%;
+  font-size: 0.8rem;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.project-company-details {
+  margin-left: 10px;
+}
+
+#projects h2 {
+  font-size: 1.8rem;
+  border-bottom: 3px solid black;
+  text-transform: uppercase;
+  width: 95%;
+  margin-top: 10px;
+}
+
+.project-details {
+  width: 95%;
+  margin-top: 5px;
+}
+
+.project-details a {
+  text-decoration: none;
+  color: blue;
+  font-weight: 100;
+}
+
+.project-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.project-name-company {
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.project-links {
+  font-size: 0.6rem;
+  text-align: right;
+  font-weight: 100;
+}
+
+.project-description {
+  width: 95%;
+  font-size: 0.8rem;
+  margin-top: 5px;
+  margin-left: 17px;
+}
+
+.project-description a {
+  color: black;
+}
+
+#others h2 {
+  font-size: 1.8rem;
+  border-bottom: 3px solid black;
+  text-transform: uppercase;
+  margin-top: 0px;
+}
+
+.other-list {
+  margin-top: 10px;
+  margin-left: 15px;
+  font-size: 0.8rem;
+}
